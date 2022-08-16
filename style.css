@@ -2,3 +2,19 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #34B7FD;
+  }
+
+  100% {
+    background-color: #CB4802;
+  }
+}
